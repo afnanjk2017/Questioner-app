@@ -1,0 +1,48 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/screen_background_gradient"
+    tools:context=".TopicActivity">
+
+
+
+    <LinearLayout
+        android:layout_marginVertical="100dp"
+        android:layout_marginHorizontal="40dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_marginBottom="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Users Results"
+            android:textColor="@color/white"
+            android:textSize="25sp"/>
+        <TextView
+            android:layout_marginBottom="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name          Topic          Mark"
+            android:textColor="@color/black"
+            android:textSize="25sp"/>
+
+        <TextView
+            android:id="@+id/bResult"
+            android:layout_marginBottom="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/blur_white"
+            android:text=""
+            android:textColor="@color/purple_200"
+            android:textSize="25sp"/>
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>
